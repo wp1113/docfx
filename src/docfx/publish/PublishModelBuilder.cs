@@ -54,6 +54,7 @@ namespace Microsoft.Docs.Build
                     var publishItem = new PublishItem
                     {
                         Url = _documentProvider.GetSiteUrl(sourceFile),
+                        Schema = _documentProvider.GetMime(sourceFile),
                         Path = buildOutput.outputPath,
                         SourceFile = sourceFile,
                         SourcePath = _sourceMap.GetOriginalFilePath(sourceFile)?.Path ?? sourceFile.Path,

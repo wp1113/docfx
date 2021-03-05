@@ -22,6 +22,8 @@ namespace Microsoft.Docs.Build
         /// </summary>
         public string? SourcePath { get; init; }
 
+        public string? Schema { get; init; }
+
         public string? Locale { get; init; }
 
         [JsonIgnore]
