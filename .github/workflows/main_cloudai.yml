@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'CloudAI'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_D78CAEC32782420083213BC9E0DFB16E }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_644B4D948A40405DA5D5595CCB05424D }}
           package: .
